@@ -1,0 +1,128 @@
+<!-- HTML-versio (HTML 5), jota käytetään.-->
+<!DOCTYPE html>
+<html>
+    <!-- Yleiset (otsikkotason) määritykset. -->
+    <head>
+        <title>Etusivu</title>
+        <meta charset="utf-8">        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- (Verkon yli haettu haettu) Bootstrapin CSS-tiedosto. -->		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        
+        <!-- (Verkon yli haettu) Bootstrapin tarvitsema JQuery-tiedosto.-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        
+        <!-- (Verkon yli haettu Popperin sisältävä) Bootstrapin JavaScript-tiedosto. -->
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+        <!-- Oma css-tiedosto -->
+        <link rel="stylesheet" href="tyyli.css">
+		
+    </head>
+
+     <!-- Verkkosivun sisältö-->
+    <body>
+		<div class="container-fluid" style="height:100vh">
+			
+			<!-- Otsikkopalkki -->
+			<div class="row text-center ps-3">
+				<div class="col-sm-12 bg-info">
+					<h1>Pilates - kehon ja mielen hyv&aumlksi</h1>
+			</div>
+			</div>
+			
+			<!-- Navigointipalkki -->
+			<div class="row text-center bg-white py-2">
+				<!-- Yhteystiedot vasemmassa reunassa -->
+				<div class="col-sm-12">
+					<a href="mita-on-pilates.html" class="btn btn-outline-primary me-2">Mita&auml on Pilates?</a>
+					<a href="hot-pilates.html" class="btn btn-outline-primary me-2">Hot Pilates</a>
+					<a href="mattoharjoitukset.html" class="btn btn-outline-primary me-2">Mattoharjoitukset</a>
+					<a href="pilates-liikkeita.html" class="btn btn-outline-primary me-2">Pilates liikkeit&auml</a>
+					<a href="index.html" class="btn btn-outline-primary">Etusivu</a>
+					<a href="Yhteystiedot.html" class="btn btn-outline-primary">Yhteystiedot</a>
+				</div>
+			</div>
+			
+		<div class="row">	
+			<!-- Teksti 1 -->
+			<div class="col-sm-12 text-center text-black">
+				<h1>Aloita matkasi pilateksen saloihin</h1>
+				<h3>Klikkaa kuvaa tai hakupalkista</h3>
+			</div>
+		</div>	
+		
+		
+<style>
+  .image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .image-text {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.4); /* läpinäkyvä tausta */
+    padding: 5px 0;
+  }
+</style>
+
+		
+	<div class="row py-2" style="margin-top:10px;">
+		<!-- Linkki sivulle Hot Pilates -->
+		<div class="col-sm-4 text-center">
+			<a href="hot-pilates.html" class="img-rounded">
+				<div class="image-container">
+					<img src="https://images.pexels.com/photos/6246212/pexels-photo-6246212.jpeg" alt="pilates_6246212" class="img-fluid">
+						<div class="image-text">Hot Pilates</div>
+				</div>
+			</a>
+		</div>
+		
+		<!-- Linkki sivulle Mattopilates -->
+		<div class="col-sm-4">
+			<a href="mattoharjoitukset.html" class="img-rounded">
+				<div class="image-container">
+					<img src="https://images.pexels.com/photos/6246672/pexels-photo-6246672.jpeg" alt="pilates_6246672" class="img-fluid">
+						<div class="image-text">Mattoharjoitukset</div>
+				</div>		
+			</a>
+			
+			<!-- Linkki sivulle Yhtreystiedot -->
+			<a href="Yhteystiedot.html" class="img-rounded">
+				<div class="image-container">
+					<img src="https://images.pexels.com/photos/7530025/pexels-photo-7530025.jpeg" alt="pilates_7530025" class="img-fluid">
+						<div class="image-text">Yhteystiedot</div>
+				</div>
+			</a>				
+		</div>
+		
+		<!-- Linkki sivulle Pilates liikkeitä -->
+		<div class="col-sm-4">
+			<a href="pilates-liikkeita.html" class="img-rounded">
+				<div class="image-container">
+					<img src="https://images.pexels.com/photos/7530002/pexels-photo-7530002.jpeg" alt="pilates_7530002" class="img-fluid">
+						<div class="image-text">Pilates liikkeit&auml</div>
+				</div>		
+			</a>
+		</div>
+		
+	</div>
+	</div>
+	
+    </body>
+</html>
